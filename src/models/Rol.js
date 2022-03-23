@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const permiso = require ("./permiso")
+// const permiso = require ("./permiso")
 
 const  RolSchema = new Schema({
     nombre: {
