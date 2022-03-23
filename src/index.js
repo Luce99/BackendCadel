@@ -15,7 +15,7 @@ const server = new ApolloServer({
 });
 
 const Rol = require("./models/Rol");
-const permiso = require("./models/permiso");
+const permiso = require("./models/Permiso");
 
 function initial() {
   Rol.estimatedDocumentCount((err, count) => {
